@@ -1,137 +1,48 @@
-🌱 Python Garden — Growing Code (Fundamentos)
+# Python Garden — Growing Code (Fundamentos)
 
-Este repositorio forma parte del proyecto Python Garden y recoge los ejercicios del módulo Growing Code, enfocado en afianzar los fundamentos de Python de forma progresiva, clara y ordenada.
+Este repositorio contiene los ejercicios del módulo **Growing Code**, cuyo objetivo es consolidar los fundamentos del lenguaje Python mediante ejercicios progresivos centrados en funciones, control de flujo y buenas prácticas.
 
-El objetivo no es solo que el código funcione, sino entender cómo y por qué funciona cada concepto básico del lenguaje.
+## Objetivos
+- Comprender el flujo de ejecución en Python
+- Definir y utilizar funciones correctamente
+- Manejar entrada y salida estándar
+- Aplicar condicionales, bucles y recursión
+- Introducir anotaciones de tipo (*type hints*)
+- Escribir código limpio y modular
 
-🎯 Objetivos del módulo
+## Reglas del módulo
+- Cada archivo contiene **una única función**
+- No se utiliza `if __name__ == "__main__"`
+- Las funciones **no se ejecutan dentro del archivo**
+- El código está pensado para ser importado y probado externamente
 
-Comprender el flujo de ejecución de un programa en Python
+## Estructura
 
-Definir y usar funciones correctamente
-
-Trabajar con entrada y salida estándar
-
-Aplicar condicionales y bucles
-
-Entender la diferencia entre iteración y recursión
-
-Introducir anotaciones de tipo (type hints)
-
-Adoptar buenas prácticas desde el inicio (modularidad y limpieza)
-
-📁 Estructura del proyecto
 python_garden_growing_code/
-├── ex0/
-│   └── ft_hello_garden.py
-├── ex1/
-│   └── ft_plot_area.py
-├── ex2/
-│   └── ft_harvest_total.py
-├── ex3/
-│   └── ft_plant_age.py
-├── ex4/
-│   └── ft_water_reminder.py
-├── ex5/
-│   ├── ft_count_harvest_iterative.py
-│   └── ft_count_harvest_recursive.py
-├── ex6/
-│   └── ft_garden_summary.py
-├── ex7/
-│   └── ft_seed_inventory.py
-└── README.md
+├── ex0/ ft_hello_garden.py
+├── ex1/ ft_plot_area.py
+├── ex2/ ft_harvest_total.py
+├── ex3/ ft_plant_age.py
+├── ex4/ ft_water_reminder.py
+├── ex5/ ft_count_harvest_iterative.py
+│ ft_count_harvest_recursive.py
+├── ex6/ ft_garden_summary.py
+└── ex7/ ft_seed_inventory.py
 
-🌱 Contenido por ejercicio
-ex0 — ft_hello_garden
+## Estado
+✔️ Módulo completado  
+✔️ Código validado manualmente  
+✔️ Listo para avanzar a Programación Orientada a Objetos
 
-Introducción a la definición de funciones.
 
-Función sin parámetros
+## Reflexión personal
 
-Salida simple por consola
+Completar el módulo *Growing Code* me ha permitido afianzar los fundamentos de Python de forma consciente y ordenada.
 
-Diferencia entre definir y ejecutar
+Más allá de aprender sintaxis, he entendido conceptos clave como:
+- la diferencia entre definir y ejecutar una función,
+- la importancia del orden de ejecución,
+- cuándo usar iteración y cuándo recursión,
+- y por qué la claridad y la disciplina son tan importantes como la lógica.
 
-ex1 — ft_plot_area
-
-Entrada de datos y cálculo.
-
-Uso de input()
-
-Conversión de tipos (float)
-
-Operaciones matemáticas
-
-Impresión del resultado
-
-ex2 — ft_harvest_total
-
-Funciones con parámetros.
-
-Paso de argumentos
-
-Cálculo a partir de varios valores
-
-Separación entre lógica y entrada de datos
-
-ex3 — ft_plant_age
-
-Condicionales básicos.
-
-Uso de if / else
-
-Comparaciones
-
-Flujo de decisiones
-
-ex4 — ft_water_reminder
-
-Lógica condicional aplicada.
-
-Evaluación de estados
-
-Mensajes según condiciones
-
-Claridad en la lógica
-
-ex5 — Conteo iterativo y recursivo
-
-Comparación de dos enfoques.
-
-Uso de bucles (for)
-
-Uso de recursión
-
-Comprensión del flujo de llamadas y retornos
-
-ex6 — ft_garden_summary
-
-Funciones informativas.
-
-Función sin parámetros
-
-Salida fija
-
-Disciplina: definir comportamiento sin ejecutarlo
-
-ex7 — ft_seed_inventory
-
-Introducción a type hints.
-
-Anotaciones de tipo (int, str, -> None)
-
-Código más legible y mantenible
-
-Diferencia entre imprimir y devolver valores
-
-🧠 Aprendizajes clave
-
-Python se ejecuta de arriba abajo, línea a línea
-
-Definir una función no implica ejecutarla
-
-El orden y la estructura importan tanto como la lógica
-
-No todos los ejercicios necesitan complejidad para ser valiosos
-
-La claridad y la disciplina son parte fundamental de programar bien
+Este módulo me ha ayudado a construir una base sólida sobre la que ahora puedo avanzar con seguridad hacia la Programación Orientada a Objetos, sabiendo no solo *qué escribir*, sino *por qué escribirlo así*.

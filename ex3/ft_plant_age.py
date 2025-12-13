@@ -3,4 +3,3 @@ def ft_plant_age(age_days):
         print("The plant is ready for harvest.")
     else:
         print("The plant is still growing.")
-
