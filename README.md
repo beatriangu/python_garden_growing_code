@@ -1,45 +1,59 @@
-🌱 Python Garden — Growing Code (Fundamentos)
+🌱 Python Garden — Basics
+Growing Code · Python Fundamentals Through Garden Data
 
-Este repositorio forma parte del proyecto Python Garden y recoge los ejercicios del módulo Growing Code, cuyo objetivo es consolidar los fundamentos del lenguaje Python mediante ejercicios progresivos, estrictamente definidos por un subject.
+This repository is part of the Python Garden learning path and contains the exercises for the Basics module, also known as Growing Code.
 
-El módulo se centra en adquirir soltura con la sintaxis, el flujo de ejecución, la definición de funciones y la lectura precisa de requisitos, sentando una base sólida para módulos posteriores más avanzados.
+The goal of this module is to introduce Python fundamentals through small, well-defined exercises inspired by community garden scenarios.
+It focuses on understanding Python’s syntax, execution model, and core programming concepts in a progressive and controlled way.
 
-🎯 Objetivos del módulo
+This module is designed as a foundation: simple on purpose, strict by design, and essential for all subsequent modules.
 
-Durante este módulo se trabaja para:
+🎯 Module Objectives
 
-Comprender el flujo de ejecución en Python
+During this module, the learner works on:
 
-Diferenciar claramente entre definir y ejecutar funciones
+Understanding Python’s execution flow
 
-Manejar entrada y salida estándar dentro de funciones
+Learning the difference between defining and executing functions
 
-Aplicar condicionales, bucles y recursión
+Using variables and expressions correctly
 
-Leer y cumplir un subject de forma exacta
+Handling standard input and output inside functions
 
-Afianzar la lógica básica antes de avanzar a diseños más complejos
+Applying conditionals, loops, and basic recursion
 
-📐 Reglas del módulo
+Reading and following a subject exactly as specified
 
-El módulo impone reglas estrictas que condicionan la forma del código:
+Building confidence with Python before moving to advanced concepts
 
-Cada archivo contiene una única función
+The emphasis is on clarity, correctness, and comprehension, not on optimization or architecture.
 
-No se utiliza if __name__ == "__main__"
+📐 Rules & Constraints
 
-Las funciones no se ejecutan dentro del archivo
+This module follows strict rules, as defined in the official subject:
 
-La entrada (input) y la salida (print) se gestionan directamente dentro de la función, cuando así lo exige el subject
+Each file contains only one function
 
-Solo se utilizan las funciones autorizadas en cada ejercicio
+Functions are never executed inside the file
 
-El texto de salida debe coincidir exactamente con el ejemplo proporcionado
+if __name__ == "__main__" is not allowed
 
-Estas restricciones no buscan aún buenas prácticas de diseño, sino reforzar la comprensión del lenguaje, la ejecución y el modelo de evaluación automática.
+Input (input) and output (print) are handled inside the function, when required
 
-🗂️ Estructura del proyecto
-python_garden_growing_code/
+Only the authorized functions listed in each exercise may be used
+
+Function names must match the subject exactly
+
+Output text must match the examples character by character
+
+Error handling is not required unless explicitly stated
+
+For invalid or negative inputs, behavior is undefined
+
+These constraints are intentional:
+they reinforce how Python is evaluated automatically and how execution really works.
+🗂️ Project Structure
+python_garden_basics/
 ├── ex0/  ft_hello_garden.py
 ├── ex1/  ft_plot_area.py
 ├── ex2/  ft_harvest_total.py
@@ -51,44 +65,61 @@ python_garden_growing_code/
 └── ex7/  ft_seed_inventory.py
 
 
-Cada ejercicio introduce un concepto nuevo o refuerza uno anterior, manteniendo siempre una complejidad controlada y un alcance bien definido.
+Each exercise introduces a single new concept, building gradually on what came before.
 
-🧠 Enfoque de aprendizaje
+🧠 Learning Philosophy
 
-El enfoque del módulo es fundamental y progresivo:
+This module follows a progressive and fundamental approach:
 
-Resolver problemas pequeños con funciones bien delimitadas
+Solve small, concrete problems
 
-Entender cómo y cuándo se ejecuta el código
+Focus on what Python does, not just how to write it
 
-Aprender a probar funciones mediante importación
+Learn how functions are tested through imports
 
-Priorizar la corrección exacta sobre la elegancia del diseño
+Prioritize exact correctness over elegance
 
-Separar claramente esta fase de los principios de diseño avanzados
+Accept limitations as part of the learning process
 
-Este módulo no busca todavía código reutilizable o arquitecturas limpias, sino una base sólida, consciente y bien entendida.
+This is not yet about reusable code, clean architecture, or best practices.
+It is about understanding the language deeply and consciously.
 
-🚀 Estado del módulo
+🧪 Testing the Exercises
 
-✔️ Módulo completado
-✔️ Código validado manualmente
-✔️ Cumple estrictamente las reglas del subject
-✔️ Comprensión clara del modelo de evaluación
-✔️ Base sólida para avanzar a Programación Orientada a Objetos
+A helper file (main.py) is provided with the subject to make testing easier.
 
-🔗 Relación con el módulo siguiente
+This helper:
 
-Este módulo sirve como base directa para Code Cultivation (Programación Orientada a Objetos), donde los conceptos trabajados aquí se reutilizan desde otra perspectiva:
+Imports your functions automatically
 
-Métodos frente a funciones
+Executes them without modifying your files
 
-Encapsulación
+Helps you understand how imports work in Python
 
-Responsabilidad de los datos
+⚠️ The helper is for learning only and is not part of the submission.
 
-Separación entre lógica y entrada/salida
+🚀 Module Status
 
-Organización del código a mayor escala
+✔️ Module completed
+✔️ Exercises validated manually
+✔️ Fully compliant with the official subject
+✔️ Clear understanding of the evaluation model
+✔️ Solid foundation for future Python modules
 
-📌 Módulo finalizado — Growing Code (Fundamentos) 🌱
+🔗 What Comes Next
+
+This Basics module prepares the ground for future projects, where concepts will be revisited with more depth:
+
+More complex control flow
+
+Data structures
+
+Error handling
+
+File and stream management
+
+Object-Oriented Programming
+
+Everything built here becomes reusable knowledge later — just in a more advanced form.
+
+📌 Module completed — Python Garden · Basics 🌱
